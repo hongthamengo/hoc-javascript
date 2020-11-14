@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="assets/css/hoc.css">
+</head>
+
+<body>
+    <h2>
+        Buổi 1: Giới thiệu về javascript
+    </h2>
+    <div>Alert: sẽ hiển thị một bảng thông báo kết quả trên màn hình</div>
+    <div>Console.log hiển thị kết quả thông báo ở phần Console</div>
+
+    <div>Các toán tử trong javascript</div>
+    <div>Phép chia không dư /. Phép chia có dư là dấu %</div>
+    <div>Phép nhân là dấu *</div>
+    <div>Toán tử gán là dấu =</div>
+    <div>Toán tử so sánh ==, ===, > , < , <=,>=</div>
+    <div>Toán tử lý luận : && , || , !</div>
+
+
+    <input type="number" placeholder="Mời nhập tuổi của bạn" id="age">
+    <button id="btnSubmit">Kích vào tôi đi. Bạn sẽ thấy điều bất ngờ !!!</button>
+
+    <div>Bài tập: Viết chương trình giải bài toán Bậc nhất: Ax + b = c</div>
+
+    <h3 class="text-center">Giải chương trình bậc nhất Ax + b = c</h3>
+
+    <!-- <div class="form__bacNhat">
+
+        <div class="form-group">
+            <span>Nhập A : </span>
+            <div class="error" id="error1">a không được để trống</div>
+            <input type="number" id="soA">
+        </div>
+
+        <div class="form-group">
+            <span>Nhập b : </span>
+            <div class="error" id="error2">b không được để trống</div>
+            <input type="number" id="soB">
+        </div>
+
+        <div class="form-group">
+            <span>Nhập c:</span>
+            <div class="error" id="error3">c không được để trống</div>
+            <input type="number" id="soC">
+        </div>
+        <div class="text-center">
+            <button id="btn_giaiToan">Giải bài toán</button>
+        </div>
+        <div> Kết quả x là : <span id="showResult"></span></div>
+    </div> -->
+    <div class="name">CocaCola</div>
+
+    <div class="name">7 Up </div>
+
+    <div class="name">Sting</div>
+
+    <button name="btnClick">Button 1</button>
+    <button name="btnClick">Button 2</button>
+    <button name="btnClick">Button 3</button>
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 1</li>
+        <li>Item 1</li>
+        <li>Item 1</li>
+        <li>Item 1</li>
+    </ol>
+
+    <script>
+        var ten = document.getElementsByClassName("name")[1];
+        var btn = document.getElementsByName("btnClick");
+        var Item = document.getElementsByTagName("li")[3]
+        console.log(Item);
+        // var btnGiaiToan = document.getElementById("btn_giaiToan");
+        // btnGiaiToan.addEventListener("click", function () {
+        //     var a = document.getElementById("soA").value;
+        //     var b = document.getElementById("soB").value;
+        //     var c = document.getElementById("soC").value;
+        //     var result;
+
+        //     if ((a != '') && (b != '') && (c != '')) {
+        //         if (a == 0) {
+        //             if (b == c) {
+        //                 result = "Phương trình có vô số nghiệm!"
+        //             } else if (b != c) {
+        //                 result = "Phương trình vô nghiệm!"
+        //             }
+        //         } else {
+        //             result = (c - b) / a;
+        //         }
+
+        //         document.getElementById("error1").style.display = "none";
+        //         document.getElementById("error2").style.display = "none";
+        //         document.getElementById("error3").style.display = "none";
+        //         document.getElementById("showResult").innerHTML = result;
+
+        //     } else {
+        //         if (a == '') {
+        //             document.getElementById("error1").style.display = "block";
+        //         }
+
+        //         if (b == '') {
+        //             document.getElementById("error2").style.display = "block";
+        //         }
+
+        //         if (c == '') {
+        //             document.getElementById("error3").style.display = "block";
+        //         }
+        //     }
+        // })
+
+    </script>
+</body>
+
+</html>
